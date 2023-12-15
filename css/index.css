@@ -1,0 +1,209 @@
+:root {
+    --soft-orange: hsl(35, 77%, 62%);
+    
+    --Lato:"Lato";
+    --backgroundbody: rgb(255, 255, 255);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    
+}
+body {
+   
+   margin: 0;
+   padding: 0;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10em;
+}
+
+#taplist{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    background:var(--backgroundbody);
+   
+    
+}
+.tabela{
+    display:flex;
+    flex-direction: row;
+  
+}
+tbody{  
+    margin: 0;
+    padding: 0;
+}
+
+#formpost{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 150px 0 150px 0;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    font-family: var(--Lato);
+}
+#formpost form{
+    background-color: rgb(151, 151, 151);
+    padding:50px ;
+    width: 250px;
+    text-align: center;
+    font-family: var(--Lato);
+}
+form{font-family: var(--Lato);}
+#buttonfile{
+    font-family: var(--Lato);
+    padding: 5px;
+    margin:50px;
+
+}
+.title {
+    font-size: 20px;
+    font-family: var(---Lato);
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(117, 19, 19);
+    margin:15px ;
+    width: 350px;
+}
+
+img {
+    
+    height: 100px; /* Set the height to 80px */
+    border-radius: 5px;
+
+}
+tr[id="rowClass0"] td:nth-child(odd){
+    font-family: var(--verdana-font);
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    background: white;
+    position: sticky;
+    top: 0; 
+    
+   
+}
+tr[id="rowClass0"] td:nth-child(even){
+    font-family: var(--verdana-font);
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    background: white;
+    position: sticky;
+    top: 0; 
+    
+
+}
+
+/* LOGO*/
+.tdClass0{
+    width: auto;
+    font-size: 1px;
+    text-align: center;
+    color: var(--backgroundbody);
+}
+/* TAP*/
+.tdClass1{
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--Lato);
+    text-transform: uppercase;
+    
+    color: darkgrey;
+}
+/* CERVEJA*/
+.tdClass2{
+    font-size: 35px;
+    text-align: center;
+    font-family: var(--Lato);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(29, 29, 29);
+}
+
+/* ESTILO*/
+.tdClass3{
+    text-align: center;
+    margin: 15px;
+    font-family: var(--Lato);
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(41, 41, 41);
+}
+/* ABV*/
+.tdClass4{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--Lato);
+    text-transform: uppercase;
+    width: 70px;
+    padding: 20px;
+    color: rgb(71, 71, 71);
+    
+}
+/* IBU*/
+.tdClass5{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--Lato);
+    text-transform: uppercase;
+    width: 70px;
+    color: rgb(41, 41, 41);
+}
+/* HALF*/
+tr .tdClass6{ border-radius: 0;}
+.tdClass6{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--Lato);
+    text-transform: uppercase;
+    width: 100px;
+    border-radius: 25px;
+    color: rgb(4, 236, 93);
+    background-image: linear-gradient( rgb(255, 255, 255), rgba(200, 240, 200, 0.747),  rgb(255, 255, 255));
+}
+/* PINT*/
+tr .tdClass7{ border-radius: 0;}
+.tdClass7{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--Lato);
+    text-transform: uppercase;
+    width: 100px;
+    border-radius: 25px;
+    color: rgb(4, 236, 93);
+    background-image: linear-gradient( rgb(255, 255, 255), rgba(200, 240, 200, 0.747),  rgb(255, 255, 255));
+}
+/* LITRO*/
+tr .tdClass8{ border-radius: 0;}
+.tdClass8{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--Lato);
+    text-transform: uppercase;
+    width: 100px;
+    border-radius: 25px;
+    color: rgb(4, 236, 93);
+    background-image: linear-gradient( rgb(255, 255, 255), rgba(200, 240, 200, 0.747),  rgb(255, 255, 255));
+}
